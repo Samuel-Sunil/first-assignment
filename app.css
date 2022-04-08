@@ -1,0 +1,226 @@
+body{
+    background:#1e252d;
+    text-align: center;
+}
+.blank{
+  color: white;
+}
+img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+.btn{
+    background-color:#1e252d ;
+    color: white;
+    border: 5px solid white;
+  outline: 1px solid white;
+  width: 150px;
+  height: 80px;
+  font-size: x-large;
+  padding: 10px;
+  box-shadow: 1px 1px 15px white;
+}
+.btn:hover{
+    color: rgb(0, 238, 255);
+  box-shadow: 1px 1px 15px  rgb(0, 238, 255) ;
+}
+.btn1{
+    background-color:#1e252d ;
+    color: white;
+    /* border: 5px solid white; */
+  outline: 2px solid rgb(16, 15, 15);
+  padding: 20px;
+  box-shadow: 2px 2px 20px #000 ;
+}
+.btn1:hover{
+    color: rgb(0, 238, 255);
+  box-shadow: 1px 1px 8px ;
+}
+.btn2{
+    background-color:#1e252d ;
+    color: white;
+    /* border: 5px solid white; */
+  outline: 2px solid rgb(16, 15, 15);
+  padding: 20px;
+  box-shadow: 2px 2px 20px #000 ;
+  width: 250px;
+}
+.btn2:hover{
+    color: rgb(0, 238, 255);
+  box-shadow: 1px 1px 8px ;
+}
+.nav{
+    background:#464b52;
+}
+.p1{
+font-size: 1.5vw;
+  margin-top: 100px;
+}
+.li{
+    background: white;
+    height:50px;
+}
+.box{
+    background: white ;
+    margin: 0%;
+}
+.h1{
+    margin-top:30px;
+    font-size:xxx-large; 
+    color: white;
+    text-shadow: 2px 2px 20px #000 ;
+}
+.p{
+    font-size:x-small;
+}
+.foot{
+    background: #1e252d;
+    width: 500px;
+    height:250px;
+    margin-top: 200px;
+}
+.h3{
+    color: white;
+    text-shadow: 2px 2px 20px white ;
+}
+/* ABOUT */
+.conimg{
+  margin-top: 50px;
+  width:350px; 
+  height:350px;
+  border-radius: 350px;
+  border: 10px solid #000;
+}
+.dumy{
+  font-size:x-small;
+  border: 5px solid rgb(6, 212, 239);
+  padding:20px ;
+}
+.h5{
+  width: 120px;
+  height: 60px;
+  font-size: small;
+  padding: 18px;
+  color: white;
+  text-align: center;
+  background: #1e252d;
+  border-radius: 20px;
+  box-shadow: 1px 1px 15px rgb(3, 195, 253);
+}
+.par{
+  font-size: x-small;
+  padding: 20px;
+  background: #1e252d;
+  box-shadow: 1px 1px 15px rgb(3, 195, 253);
+  width: 700px;
+  border-radius: 20px;
+  color: white;
+}
+/* PAGE#3 */
+.h2{
+  margin-top: 100px;
+  font-size:xxx-large; 
+  font-weight: 600;
+  color: white;
+  text-shadow: 2px 2px 20px #000 ;
+}
+.para{
+  font-size: x-small;
+  padding: 20px;
+  background: #1e252d;
+  box-shadow: 1px 1px 15px rgb(3, 195, 253);
+  color: white;
+  margin-top: 150px;
+}
+.pa{
+  font-size:x-small;
+  text-align: start;
+}
+.imgpick{
+  display:inline-block;
+}
+/* page4 */
+#coment{
+  width:30vw;
+  height: 20vh;
+}
+.lab{
+  display:block;
+}
+.btn4{
+  background-color:#1e252d ;
+  color: white;
+  /* border: 5px solid white; */
+outline: 2px solid rgb(16, 15, 15);
+padding: 15px;
+width: 150px;
+box-shadow: 2px 2px 20px #000 ;
+}
+.btn4:hover{
+  color: rgb(0, 238, 255);
+box-shadow: 1px 1px 8px ;
+}
+
+.myfoot1 {
+  width: 20vw;
+  padding: 16px;
+  color: white;
+}
+
+.myfoot {
+  width: 35vw;
+  padding: 16px;
+  color: white;
+}
+
+.dft {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.ftct {
+  color: gray;
+}
+
+.ftt {
+  color: #22A9FF; font-size: large;
+}
+
+.ftt2 {
+  color: #22A9FF; font-size: xx-large;
+}
+
+.ftt3 {
+  color: palevioletred; font-size: xx-large;
+}
+
+.myul {
+  list-style: circle;
+}
+
+.myli {
+  padding:0.5vw; text-align: left;
+}
+
+.mya {
+  color: white;
+}
+.anh{
+  text-decoration: none;
+  color: white;
+}

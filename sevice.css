@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+
+.myser {
+    width: 45vw;
+    padding: 16px;
+    color: black;
+}
+
+.myfoot1 {
+    width: 20vw;
+    padding: 16px;
+    color: white;
+}
+
+.myfoot {
+    width: 35vw;
+    padding: 16px;
+    color: white;
+}
+
+.dft {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.ftct {
+    color: gray;
+}
+
+.ftt {
+    color: #22A9FF; font-size: large;
+}
+
+.ftt2 {
+    color: #22A9FF; font-size: xx-large;
+}
+
+.ftt3 {
+    color: palevioletred; font-size: xx-large;
+}
+
+.myul {
+    list-style: circle;
+}
+
+.myli {
+    padding:0.5vw; text-align: left;
+}
+
+.mya {
+    color: white;
+}

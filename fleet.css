@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+.myser {
+    width: 30vw;
+    padding: 16px;
+    color: black;
+}
+
+.fl_text {
+    font-size: 2vw; color: black; text-align: left;
+}
+
+.myul {
+    list-style: circle;
+}
+
+.myli {
+    padding:0.5vw; text-align: left;
+}
+
+.cnt {
+    color: #22A9FF;
+}
+
+.flt_text {
+    font-size: 1vw; color: black; text-align: left;
+}
+
+.cnt:hover {
+ color: black;
+}
+
+.myfoot1 {
+    width: 20vw;
+    padding: 16px;
+    color: white;
+}
+
+.myfoot {
+    width: 35vw;
+    padding: 16px;
+    color: white;
+}
+
+.dft {
+    display: flex;
+    flex-direction: row;
+}
+
+.ftct {
+    color: gray;
+}
+
+.ftt {
+    color: #22A9FF; font-size: large; 
+}
+
+.ftt2 {
+    color: #22A9FF; font-size: xx-large;
+}
+
+.ftt3 {
+    color: palevioletred; font-size: xx-large;
+}
